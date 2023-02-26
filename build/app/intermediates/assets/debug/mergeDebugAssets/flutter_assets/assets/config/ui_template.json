@@ -1,0 +1,144 @@
+[
+  {
+    "name": "Integer",
+    "input_type": "keypad",
+    "data_type": "numeric",
+    "description": "20-60"
+  },
+  {
+  "name": "Decimal",
+  "input_type": "keypad",
+  "data_type": "numeric",
+  "description": "100-150"
+  },
+  {
+  "name": "Option ",
+  "input_type": "single_choice",
+  "data_type": "text",
+  "description": "yes alarm",
+   "options": [
+     "Not Selected",
+     "Needs Attention",
+     "No",
+     "Yes"
+    ]
+  },
+  {
+  "name": "Alarm message update",
+  "input_type": "single_choice",
+  "data_type": "text",
+  "description": "no - alarm",
+  "options": [   "Not Selected","No","Yes"
+    ]
+   },
+  {
+  "name": "Alert 22222",
+  "input_type": "single_choice",
+  "data_type": "text",
+  "description": "yes - alert",
+   "options": [  "Not Selected", "No","Yes"
+    ]
+  },
+  {
+  "name": "Alert message",
+  "input_type": "single_choice",
+  "data_type": "text",
+  "description": "no - alarm",
+    "options": [  "Not Selected", "No","Yes"
+    ]
+  },
+  {
+  "name": "Condition: >= 20 and < 90",
+  "input_type": "keypad",
+  "data_type": "numeric",
+  "description": "have message, forcing comment: true"
+  },
+  {
+  "name": "Date",
+  "input_type": "date",
+  "data_type": "date",
+  "description": "date description"
+  },
+  {
+
+    "name": "Text",
+    "input_type": "keypad",
+    "data_type": "text"
+  },
+  {
+
+    "name": "Text - Type \"Pizza\"",
+    "description": "Pizza will activate this alarm/comment",
+    "input_type": "keypad",
+    "data_type": "text"
+  },
+  {
+
+    "name": "Comments On ",
+    "description": "12 Floor",
+    "input_type": "keypad",
+    "data_type": "text-multi-line"
+  },
+  {
+
+    "name": "Comments On ",
+    "description": "Device Resistor",
+    "input_type": "keypad",
+    "data_type": "text-multi-line"
+  },
+  {
+
+    "name": "Number - decimal limit",
+    "input_type": "keypad",
+    "data_type": "numeric",
+    "decimals": 1
+  },
+  {
+
+    "name": "Number - alarm",
+    "input_type": "keypad",
+    "data_type": "numeric",
+    "decimals": 0
+  },
+  {
+
+    "name": "Number - alarm and force comment",
+    "input_type": "keypad",
+    "data_type": "numeric",
+    "decimals": 0
+  },
+  {
+
+    "name": "Checkbox",
+    "input_type": "checkbox",
+    "data_type": "boolean"
+  },
+  {
+    "name": "Time",
+    "input_type": "time",
+    "data_type": "time"
+  },
+  {
+    "name": "Date",
+    "input_type": "date",
+    "data_type": "date"
+  },
+    {
+
+    "name": "File Upload",
+    "input_type": "file_upload",
+    "data_type": "file"
+  },
+  {
+
+    "name": "Gallery Upload",
+    "input_type": "image_upload",
+    "data_type": "file"
+  },
+  {
+    "name": "Camera Image",
+    "description": "Take picture with camera",
+    "input_type": "image_upload",
+    "data_type": "file"
+  }
+]
